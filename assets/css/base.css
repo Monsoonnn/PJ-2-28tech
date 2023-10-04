@@ -3,6 +3,10 @@ body{
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
 }
+::selection{
+    color: #fff;
+    background-color: #FF589E;
+}
 
 :root{
     --color-text: #1e1e1e;

@@ -5,7 +5,6 @@
     background-image: url(../images/banner-bg.png);
     background-size: cover;
     background-position: center;
-
 }
 
 .header .inner-top{
@@ -48,6 +47,7 @@
     color: var(--color-active);
     text-decoration: none;
 }
+
 .header .inner-bottom{
     display: flex;
     flex-direction: column;

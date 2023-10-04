@@ -558,7 +558,7 @@
     font-size: 15px;
     max-width: 400px;
     color: var(--color-text-2);
-    margin: 0 auto;
+    margin: 0 auto auto 0;
     margin-bottom: 30px;
 }
 .section-7 .inner-content{

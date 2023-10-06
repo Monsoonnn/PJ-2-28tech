@@ -6,44 +6,53 @@
     background-size: cover;
     background-position: center;
 }
+.section-0{
+    width: 100%;
+    position: fixed;
+    margin: 0 auto;
+    z-index: 999;
+    top: 30px;
+    left: 0px;
+}
 
-.header .inner-top{
+.section-0 .inner-top{
     display: flex;
     background-color: #fff;
-    padding: 25px 20px;
+    padding: 25px 0px;
+    width: 100%;
     border-radius: 45px;
     text-align: center;
+    margin: 0 auto;
     justify-content: space-between;
-    position: fixed;
-    z-index: 999;
+
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.header .inner-top .inner-icon{
+.section-0 .inner-top .inner-icon{
     width: auto;
     height: 100%;
     margin-left: 10px;
 }
-.header .inner-top .inner-icon img{
+.section-0 .inner-top .inner-icon img{
     object-fit: cover;
 }
 
-.header .inner-top .inner-menu{
+.section-0 .inner-top .inner-menu{
     display: flex;
     list-style: none;
     align-items: center;
     margin-bottom: 0px;
 }
-.header .inner-top .inner-menu li{
+.section-0 .inner-top .inner-menu li{
     font-size: 13px;
     font-weight: 500;
     padding: 0 25px;
 
 }
-.header .inner-top .inner-menu li a{
+.section-0 .inner-top .inner-menu li a{
     color: var(--color-text);
     text-decoration: none;
 }
-.header .inner-top .inner-menu li a:hover{
+.section-0 .inner-top .inner-menu li a:hover{
     color: var(--color-active);
     text-decoration: none;
 }
@@ -69,34 +78,37 @@
     margin-top: 30px;
     max-width: 600px;
 }
-.header .inner-top .inner-dropdown{
+.section-0 .inner-top .inner-dropdown{
     display: none;
 }
 @media (max-width: 1198.98px){
-    .header .inner-top .inner-menu li{
+    .section-0 .inner-top .inner-menu li{
         padding: 0 15px;
     }
 }
 @media (max-width: 991.98px){
-    .header .inner-top .inner-menu{
+    .section-0 .inner-top .inner-menu{
         display: none;
     }
-    .header .inner-top .inner-dropdown{
+    .section-0 .inner-top .inner-dropdown{
         display: block;
     }
-    .header .inner-top .inner-dropdown i{
+    .section-0 .inner-top .inner-dropdown i{
         font-size: 24px;
         margin-top: 10px;
         margin-right: 10px;
     }
 }
 @media (max-width: 767.98px){
-    .header .inner-bottom .inner-title{
+    .section-0 .inner-bottom .inner-title{
         font-size: 28px;
     }
-    .header .inner-bottom .inner-desc{
+    .section-0 .inner-bottom .inner-desc{
         font-size: 10px;
     }
+}
+@media (max-width: 575.98px){
+    
 }
 /* End header */
 /* section-1 */

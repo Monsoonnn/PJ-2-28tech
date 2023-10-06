@@ -50,3 +50,8 @@ ul{
     text-decoration: none;
     color: #fff;
 }
+@media (max-width: 575.98px){
+    .container{
+        margin: 0px;
+    }
+}
